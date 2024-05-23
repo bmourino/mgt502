@@ -33,15 +33,13 @@ I also performed local tests (by splitting the training data).
 | F1-score   |  0.473  |  0.088  |  0.272  |  0.381  |
 | Accuracy   |  0.476  |  0.180  |  0.291  |  0.399  |
 
-<img src="outputs/plots/Logistic_Regression.png" alt="Logistic Regression" width="200">
-<img src="outputs/plots/KNN.png" alt="KNN" width="200">
-<img src="outputs/plots/Decision_Tree.png" alt="Decision Tree" width="200">
-<img src="outputs/plots/Random_Forest.png" alt="Random Forest" width="200">
+<img src="outputs/plots/Logistic_Regression.png" alt="Logistic Regression" width="250">
+<img src="outputs/plots/KNN.png" alt="KNN" width="250">
+<img src="outputs/plots/Decision_Tree.png" alt="Decision Tree" width="250">
+<img src="outputs/plots/Random_Forest.png" alt="Random Forest" width="250">
 
 
 ## Bert embedding
 
 I used the `transformers` library to get the embeddings from the Bert model. I used the `bert-base-multilingual-cased` model. I then used the embeddings to train a Logistic Regression model.
 I tried fine-tuning the model, and tried to implement data augmentation.
-
- convert -density 300 outputs/plots/Random_Forest.pdf -quality 90 outputs/plots/Random_Forest.png
